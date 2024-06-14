@@ -32,7 +32,12 @@
         <h2>Flexbox Column</h2>
             <div>
                 Use this to create a Flexbox column layout.
-                <p></p>
+                <p>
+                    .column {
+                        display: flex;
+                        flex-direction: colum
+                    }
+                </p>
             </div>
     </section>
 
@@ -40,7 +45,13 @@
         <h2>CSS Grid Layout</h2>
         <div>
             Build a 12-column layout using CSS grid.
-                <p></p>
+                <p>
+                    .grid {
+                        display: grid;
+                        width: 100%;
+                        gird-template-columns: repeat(12, 1fr);
+                    }
+                </p>
         </div>
     </section>
 
@@ -48,7 +59,12 @@
         <h2>Linear Gradients</h2>
         <div>
             This will create a background linear gratient from top to bottom.
-                <p></p>
+                <p>
+                    .linear-gradient-background {
+                        rgba(232, 102, 236, 0.3) 0%,
+                        rgba(232, 102, 236, 0.6) 100%
+                    }
+                </p>
         </div>
     </section>
     
@@ -56,7 +72,16 @@
         <h2>Box Transition Glow</h2>
         <div>
             Use transition and box shadows to glow on hover.
-                <p></p>
+                <p>
+                    .code-card .card-header {
+                        border-radius: 8px;
+                        transition: all 0.5s ease-in-out;
+                    }
+                    .code-card:hover, .code-card:hover .card-header {
+                        box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px
+                        rgba(232, 102, 236, 1);
+                    }
+                </p>
         </div>
     </section>
 
@@ -64,7 +89,12 @@
         <h2>Overlay Card with Title</h2>
         <div>
             Use position properties and negative margins to raise elements higher than their natural starting point.
-                <p></p>
+                <p>
+                    .card-header {
+                        position: relative;
+                        margin-top: -20px
+                    }
+                </p>
         </div>
     </section>
 

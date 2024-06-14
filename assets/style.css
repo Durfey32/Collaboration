@@ -4,6 +4,7 @@
 }
 * {
     background-color: rgb(35, 37, 41);
+    color: var(--purple)
 }
 header {
     text-align: center;
@@ -13,4 +14,8 @@ header h1 {
 }
 header p {
     color: var(--white);
+}
+section p {
+    color: var(--white);
+    font-family: monospace;
 }
