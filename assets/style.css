@@ -1,0 +1,16 @@
+:root {
+    --purple:#aa21b4c2;
+    --white: #ffff;
+}
+* {
+    background-color: rgb(35, 37, 41);
+}
+header {
+    text-align: center;
+}
+header h1 {
+    color: var(--purple);
+}
+header p {
+    color: var(--white);
+}
